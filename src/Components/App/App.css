@@ -24,7 +24,7 @@ html {
   font-size: 18px;
 }
 
-h1 {
+.marker {
   padding: .77rem 0;
   background-color: #010c3f;
   text-align: center;
@@ -33,8 +33,18 @@ h1 {
   color: #fff;
 }
 
-h1 .highlight {
+.marker .highlight {
   color: #6c41ec;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;  
+}
+
+.links a:hover {
+  color: #fff;
 }
 
 h2 {

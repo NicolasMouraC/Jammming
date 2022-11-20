@@ -9,6 +9,7 @@ function App() {
   const [results, setResults] = useState([]);
   const [playlistName, setPlaylistName] = useState("Playlist Name");
   const [playlistTracks, setPlaylistTracks] = useState([]);
+  const date = new Date();
 
   /* Method that is trigged when 'SAVE TO SPOTIFY' button is clicked
      It uses Spotify.js to create and populate a new playlist */
@@ -45,9 +46,9 @@ function App() {
 
   return (
     <div>
-      <h1>
-        Ja<span className="highlight">mmm</span>ing
-      </h1>
+      <div className="marker">
+        <h1>Ja<span className="highlight">mmm</span>ing</h1>
+      </div>
       <div className="App">
         <SearchBar onSearch={search} />
         <div className="App-playlist">
@@ -59,6 +60,13 @@ function App() {
             onRemove={removeTrack}
             onSave={savePlaylist}
           />
+        </div>
+      </div>
+      <div className="marker">
+        <h1>Nicolas de Moura {date.getFullYear()}</h1>
+        <div className="links">
+          <a href="https://github.com/NicolasMouraC" className="highlight"><ion-icon name="logo-github" size="la"></ion-icon></a>
+          <a href="https://www.linkedin.com/in/nicolas-moura-b677b8232/" className="highlight"><ion-icon name="logo-linkedin"></ion-icon></a>
         </div>
       </div>
     </div>
