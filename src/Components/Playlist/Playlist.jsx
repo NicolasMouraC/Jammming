@@ -6,9 +6,8 @@ function Playlist(props) {
     return (
         <div className="Playlist">
             <input value={props.playlistName} onChange={props.changePlaylistName} />
-            Playlist Component
             <TrackList tracks={props.playlistTracks} isRemoval={false} onRemove={props.onRemove} />
-            <button className="Playlist-save">SAVE TO SPOTIFY</button>
+            <button onClick={props.onSave} className="Playlist-save">SAVE TO SPOTIFY</button>
         </div>
     );
 };
