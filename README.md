@@ -19,6 +19,7 @@ npm start
 To initiallize the server on localhost.
 
 ### 📌 Version changes
+* 1.0.1 - Url redirect bug fixed
 * 1.0.0 - Main function deployed
 
 ### ✒️ Author
