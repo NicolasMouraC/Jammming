@@ -7,15 +7,20 @@ React app that uses Spotify API to create a new playlist and put it on your spot
 * [NPM](https://www.npmjs.com) - Dependency manager
 
 ### 🔧 Run Locally
-First type:
-'''
-npm install
-''' 
+On your terminal, first type:
+
+`git@github.com:NicolasMouraC/Jammming.git`
+
+To clone the repository.
+Then type:
+
+`npm install`
+
 To install dependencies.
-Then, type:
-'''
-npm start
-'''
+Finally, type:
+
+`npm start`
+
 To initiallize the server on localhost.
 
 ### 📌 Version changes
